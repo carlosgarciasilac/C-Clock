@@ -2,7 +2,7 @@
 Implement a clock that handles times without dates.
 
 ## Part 1 - Let's format the output!
-Make a class that can store the time of day and display it in "HH:mm". For example, if we start the clock with 2 hours and 10 minutes it should display "02:10".
+Make a class that can store the time of day and display it in 24 hours format, also known as "HH:mm". For example, if we start the clock with 2 hours and 10 minutes it should display "02:10".
 
 ## Part 2 - Add minutes
 We want to be able to add minutes to the clock and have the time still make sense. Remember that the date doesn't matter, only the time of day.
