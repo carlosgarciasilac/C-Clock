@@ -1,25 +1,32 @@
 # Instructions
-
 Implement a clock that handles times without dates.
 
-Printing the clock should format the time as "HH:mm"
+## Part 1 - Let's format the output!
+Make a class that can store the time of day and display it in "HH:mm". For example, if we start the clock with 2 hours and 10 minutes it should display "02:10".
 
-You should be able to add and subtract minutes to it.
+## Part 2 - Add minutes
+We want to be able to add minutes to the clock and have the time still make sense. Remember that the date doesn't matter, only the time of day.
 
-Two clocks that represent the same time should be equal to each other.
+## Part 3 - Substract minutes
+Now that the clock can go forward, it should also be able to go backwards!
 
-# Running (Not the green button)
-On the left toolbar you will find a section called Tools and you can open a console there. Once in the console you can run the unit tests by using this command
+## Part 4 - Compare clocks
+Once the clock can do time travel 🕓->🚀->🕢, we want to know that two clocks are equal if they end up having the same time of day.
 
+# On how to use this space
+Replit lets us use a common environment that doesn't need local setup and can be shared! Because of some limitations with test projects in .Net core the run button doesn't do anything. 
+
+To run you can open a console (on the left toolbar you will find a section called Tools and you can open a console there, if there's not one open already). Once in the console you can run the unit tests by using:
 ```bash
 dotnet test
 ```
 
-If you want the tests to run continually as you do edits to the problem you can use
-
+If you want the tests to run continually as you do edits to the problem you can use:
 ```bash
 dotnet watch test
 ```
 
 # Hints
-You might want to override the ToString method for the class and format the time there.
+- You might want to override the ToString method for the class and format the time there
+- Consider minutes overflowing and underflowing
+- There are test cases written but we encourage you to also write some if you need to
