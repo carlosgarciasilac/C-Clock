@@ -34,3 +34,14 @@ If you want the tests to run continually as you do edits to the problem you can 
 ```bash
 dotnet watch test
 ```
+
+# Solving this problem locally
+You are welcome to use your own machine. You will need to be able to compile projects targeting .net core 6. You can download the SDK [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and use your favorite code editor. 
+To run tests:
+```bash
+dotnet test
+```
+To continually run tests:
+```bash
+dotnet watch test
+```
