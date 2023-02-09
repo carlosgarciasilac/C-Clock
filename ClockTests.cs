@@ -9,6 +9,7 @@ public class ClockTests
         Assert.Equal("08:00", sut.ToString());
     }
 
+    /////Tests for constructor
     // [Fact]
     // public void Past_the_hour()
     // {
@@ -142,6 +143,7 @@ public class ClockTests
     //     Assert.Equal("22:10", sut.ToString());
     // }
 
+    /////Tests for Add
     // [Fact]
     // public void Add_minutes()
     // {
@@ -198,6 +200,7 @@ public class ClockTests
     //     Assert.Equal("11:21", sut.Add(3500).ToString());
     // }
 
+    /////Tests for Subtract
     // [Fact]
     // public void Subtract_minutes()
     // {
@@ -289,6 +292,7 @@ public class ClockTests
     //     Assert.Equal(new Clock(3, 11), sut);
     // }
 
+    /////Tests for negative input
     // [Fact]
     // public void Clocks_with_negative_hour()
     // {
@@ -366,6 +370,7 @@ public class ClockTests
     //     Assert.Equal(new Clock(24, 0), sut);
     // }
 
+    /////Test for reusing instance of clock
     // [Fact]
     // public void Clocks_are_immutable()
     // {
